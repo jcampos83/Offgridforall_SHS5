@@ -1,0 +1,130 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R8
+U 1 1 604E4458
+P 5350 4150
+F 0 "R8" V 5143 4150 50  0000 C CNN
+F 1 "50mOhm" V 5234 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric" V 5280 4150 50  0001 C CNN
+F 3 "~" H 5350 4150 50  0001 C CNN
+	1    5350 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5350 3700 4850 3700
+Wire Wire Line
+	5350 3700 5350 4000
+Wire Wire Line
+	5350 4300 5350 4550
+Wire Wire Line
+	5350 4550 4850 4550
+Connection ~ 5350 4550
+$Comp
+L Amplifier_Current:INA181 U2
+U 1 1 604E82E1
+P 4150 4150
+F 0 "U2" V 4104 4494 50  0000 L CNN
+F 1 "INA181" V 4195 4494 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4200 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina181.pdf" H 4300 4300 50  0001 C CNN
+	1    4150 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 4450 4250 4650
+Text GLabel 4250 4800 3    50   Input ~ 0
+V_MCU
+Wire Wire Line
+	4250 3850 4250 3650
+$Comp
+L power:GND #PWR06
+U 1 1 604EA08F
+P 4250 3650
+F 0 "#PWR06" H 4250 3400 50  0001 C CNN
+F 1 "GND" V 4255 3522 50  0000 R CNN
+F 2 "" H 4250 3650 50  0001 C CNN
+F 3 "" H 4250 3650 50  0001 C CNN
+	1    4250 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 3100 4050 3850
+Text GLabel 4050 3100 1    50   Input ~ 0
+MCU_DAC
+Wire Wire Line
+	4850 4550 4850 4250
+Wire Wire Line
+	4850 4250 4450 4250
+Wire Wire Line
+	4850 3700 4850 4050
+Wire Wire Line
+	4850 4050 4450 4050
+Wire Wire Line
+	4250 4650 4500 4650
+Wire Wire Line
+	4500 4650 4500 4800
+Connection ~ 4250 4650
+Wire Wire Line
+	4250 4650 4250 4800
+$Comp
+L Device:C C6
+U 1 1 604EB208
+P 4500 4950
+F 0 "C6" V 4248 4950 50  0000 C CNN
+F 1 "100nF" V 4339 4950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 4800 50  0001 C CNN
+F 3 "~" H 4500 4950 50  0001 C CNN
+	1    4500 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 5100 4500 5450
+$Comp
+L power:GND #PWR07
+U 1 1 604EBC2E
+P 4500 5450
+F 0 "#PWR07" H 4500 5200 50  0001 C CNN
+F 1 "GND" V 4505 5322 50  0000 R CNN
+F 2 "" H 4500 5450 50  0001 C CNN
+F 3 "" H 4500 5450 50  0001 C CNN
+	1    4500 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4150 3500 4150
+Wire Wire Line
+	5350 3700 5350 1850
+Wire Wire Line
+	5350 1850 3600 1850
+Connection ~ 5350 3700
+Connection ~ 5350 1850
+Text GLabel 5800 5800 2    50   BiDi ~ 0
+VBAT
+Text GLabel 3600 1850 0    50   Input ~ 0
+DCDC_OUT
+Text GLabel 6900 1850 2    50   Output ~ 0
+LOAD
+Wire Wire Line
+	5350 1850 6900 1850
+Wire Wire Line
+	5350 5800 5350 6200
+Wire Wire Line
+	5350 4550 5350 5800
+Connection ~ 5350 5800
+Wire Wire Line
+	5350 5800 5800 5800
+$EndSCHEMATC

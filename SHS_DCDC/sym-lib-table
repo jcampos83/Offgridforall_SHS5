@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SHS_DCDC)(type Legacy)(uri ${KIPRJMOD}/SHS_DCDC.lib)(options "")(descr ""))
+  (lib (name LMV324AIDR)(type Legacy)(uri "${KIPRJMOD}/Library/Ti - LMV324AIDR/LMV324AIDR.lib")(options "")(descr ""))
+)

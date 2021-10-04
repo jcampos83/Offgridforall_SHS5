@@ -1,0 +1,7 @@
+GPIO signal: 6
+PWM signal: 4
+ADC input: 2
+DAC output: 1
+COMM signal: 2 --> UART (RX/TX)
+
+Total signal = 14

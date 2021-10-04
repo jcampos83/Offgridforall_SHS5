@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BK-18650-PC8
+D Single-cell battery
+K battery cell
+F ~
+$ENDCMP
+#
+$CMP PMV100XPEAR
+D MOSFET P-CH 20V 4.2A SOT23
+K PMV100XPEAR
+$ENDCMP
+#
+$CMP RJ45-54602-908LF
+D RJ connector, 8P8C (8 positions 8 connected)
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+#End Doc Library
