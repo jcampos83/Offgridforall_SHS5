@@ -1,3 +1,7 @@
 (fp_lib_table
   (lib (name "Ti - LMV324AIDR")(type KiCad)(uri "${KIPRJMOD}/Library/Ti - LMV324AIDR")(options "")(descr ""))
+  (lib (name "C3 mini")(type KiCad)(uri "${KIPRJMOD}/Library/ESP32/C3 mini")(options "")(descr ""))
+  (lib (name Library)(type KiCad)(uri ${KIPRJMOD}/Library)(options "")(descr ""))
+  (lib (name BK-18650)(type KiCad)(uri ${KIPRJMOD}/Library/BK-18650)(options "")(descr ""))
+  (lib (name Espressif)(type KiCad)(uri ${KIPRJMOD}/Library/ESPRESSIF/footprints/Espressif.pretty)(options "")(descr ""))
 )
