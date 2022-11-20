@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N7002K-T1-E3-dk_Transistors-FETs-MOSFETs-Single
+F http://www.vishay.com/docs/71333/2n7002k.pdf
+$ENDCMP
+#
 #End Doc Library

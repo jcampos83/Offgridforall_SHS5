@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name SHS_DCDC)(type Legacy)(uri ${KIPRJMOD}/SHS_DCDC.lib)(options "")(descr ""))
-  (lib (name Espressif)(type Legacy)(uri ${KIPRJMOD}/Library/ESPRESSIF/libraries/Espressif.lib)(options "")(descr ""))
+  (lib (name "SHS_DCDC")(type "KiCad")(uri "${KICAD_USER_MAIN}/SHS_DCDC.kicad_sym")(options "")(descr ""))
+  (lib (name "Espressif")(type "Legacy")(uri "${KIPRJMOD}/Library/ESPRESSIF/libraries/Espressif.lib")(options "")(descr ""))
 )
