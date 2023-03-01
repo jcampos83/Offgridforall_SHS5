@@ -2053,6 +2053,9 @@
     (path "/00000000-0000-0000-0000-00006081f53e/00000000-0000-0000-0000-0000610158d0"
       (reference "#PWR0108") (unit 1) (value "GND-power") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006081f53e/d04a3de4-7e1b-4739-8804-08ec358a6a71"
+      (reference "#PWR0109") (unit 1) (value "GND-power") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060624557/037fc698-2d03-4ee0-8d1d-f91313bdb4f4"
       (reference "#PWR0110") (unit 1) (value "GND-power") (footprint "")
     )
@@ -2338,6 +2341,12 @@
     (path "/00000000-0000-0000-0000-000060624557/bbce6c46-90cb-4415-ad99-060fc0161041"
       (reference "R21") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/00000000-0000-0000-0000-00006081f53e/87db3f7d-188e-47e3-9321-f09750dbbb88"
+      (reference "R22") (unit 1) (value "25k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00006081f53e/141ff0d7-621f-4f19-aecd-62d74bfd3f8d"
+      (reference "R23") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-0000607bfe33"
       (reference "R26") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -2351,7 +2360,7 @@
       (reference "R34") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006081f53e/00000000-0000-0000-0000-000060873238"
-      (reference "R35") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R35") (unit 1) (value "TBD") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00006081f53e/00000000-0000-0000-0000-0000608751b6"
       (reference "R36") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
