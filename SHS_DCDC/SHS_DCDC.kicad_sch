@@ -759,7 +759,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2d9ff4cb-289c-40a1-a1fe-97e4363cb360)
   )
-  (wire (pts (xy 199.39 87.63) (xy 199.39 97.79))
+  (wire (pts (xy 199.39 91.44) (xy 199.39 97.79))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2e3c08b6-b33b-4774-a442-84ccc418b5db)
   )
@@ -823,7 +823,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 66e75eea-c558-4dcb-a389-556228304848)
   )
-  (wire (pts (xy 199.39 80.01) (xy 199.39 76.2))
+  (wire (pts (xy 199.39 83.82) (xy 199.39 76.2))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6843ed13-e4ac-44d4-9092-f874c48380d1)
   )
@@ -1089,19 +1089,19 @@
     (pin "2" (uuid 252b8f97-67ac-40ad-b5a0-fbf5455a9f57))
   )
 
-  (symbol (lib_id "SHS_DCDC:R-Device") (at 199.39 83.82 0) (unit 1)
+  (symbol (lib_id "SHS_DCDC:R-Device") (at 199.39 87.63 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000603ef351)
-    (property "Reference" "R3" (id 0) (at 201.168 82.6516 0)
+    (property "Reference" "R3" (id 0) (at 201.168 86.4616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R" (id 1) (at 201.168 84.963 0)
+    (property "Value" "R" (id 1) (at 201.168 88.773 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 197.612 83.82 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 197.612 87.63 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 199.39 83.82 0)
+    (property "Datasheet" "~" (id 3) (at 199.39 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ff7bdbfe-4133-464e-82e9-b19acda20756))
@@ -2006,6 +2006,9 @@
     (path "/a76ffc62-1853-46d7-a1b3-01061ef89817/958e5437-fced-45aa-823e-c565227d460d"
       (reference "#PWR0101") (unit 1) (value "GND-power") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000060624557/3b0a89a9-e0e8-45ff-b2ce-52f998a72ced"
+      (reference "#PWR0102") (unit 1) (value "GND-power") (footprint "")
+    )
     (path "/a76ffc62-1853-46d7-a1b3-01061ef89817/4e45e128-10f5-41be-8c95-96bdcfe6a530"
       (reference "#PWR0103") (unit 1) (value "GND-power") (footprint "")
     )
@@ -2066,6 +2069,9 @@
     (path "/34a26c41-359e-405c-9a83-7f0607723e0b"
       (reference "#PWR0122") (unit 1) (value "GND-power") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000060624557/3d5f5369-f3ac-4ea1-9650-b2d55c053b83"
+      (reference "#PWR0123") (unit 1) (value "GND-power") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000604584af/00000000-0000-0000-0000-000060cbd25b"
       (reference "4cells1") (unit 1) (value "BK-18650-PC8") (footprint "BK-18650:BK-18650-PC8")
     )
@@ -2077,6 +2083,9 @@
     )
     (path "/00000000-0000-0000-0000-0000603dbeb8"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/a32bb310-073c-427c-bc59-f751ee5d5479"
+      (reference "C2") (unit 1) (value "TBD") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a76ffc62-1853-46d7-a1b3-01061ef89817/52b681f4-c0d3-4ad3-813b-da0560698d1f"
       (reference "C3") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -2179,6 +2188,9 @@
     )
     (path "/00000000-0000-0000-0000-000060624557/a06bb921-2fa2-4d55-b522-d8cc7a94f542"
       (reference "C36") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/380d7429-6590-487a-bba3-b7ca092c57f1"
+      (reference "C37") (unit 1) (value "TBD") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000604ea25d"
       (reference "J1") (unit 1) (value "Barrel_Jack") (footprint "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A")
@@ -2389,6 +2401,9 @@
     )
     (path "/00000000-0000-0000-0000-0000604584af/f6424dd2-6594-4dfd-960d-52dfa35deb35"
       (reference "U7") (unit 1) (value "MCP101") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/db6a7003-3691-4714-9ddf-9f98274a9c8c"
+      (reference "Y1") (unit 1) (value "2-SMD no lead") (footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm")
     )
   )
 )
