@@ -2087,6 +2087,9 @@
     (path "/00000000-0000-0000-0000-0000604584af/da6f84c9-46c1-46e6-891e-6b7b2d45e891"
       (reference "#PWR0124") (unit 1) (value "GND-power") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006081f53e/41bb5872-1ca4-44ba-bd5a-a8d6e5b4921f"
+      (reference "#PWR0125") (unit 1) (value "GND-power") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000604584af/00000000-0000-0000-0000-000060cbd25b"
       (reference "4cells1") (unit 1) (value "BK-18650-PC8") (footprint "BK-18650:BK-18650-PC8")
     )
