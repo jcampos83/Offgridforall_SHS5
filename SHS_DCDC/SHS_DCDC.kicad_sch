@@ -521,7 +521,7 @@
       (reference "L1") (unit 1) (value "NR8040T220M") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-80xx")
     )
     (path "/00000000-0000-0000-0000-00006081f53e/00000000-0000-0000-0000-000060b07cee"
-      (reference "L2") (unit 1) (value "L") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-60xx")
+      (reference "L2") (unit 1) (value "1.5 uH") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-60xx")
     )
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/1d41d115-ae42-45c4-94ef-985da86b8839"
       (reference "Q1") (unit 1) (value "BSS84") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -730,8 +730,8 @@
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/6125677b-6611-429c-8337-96670ecddad7"
       (reference "R48") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-000060624557/bc7886e5-f699-4dd8-a049-6f043a5fb43b"
-      (reference "S1") (unit 1) (value "TS02-66-70-BK-160-LCR-D") (footprint "SW_TS02-66-70-BK-160-LCR-D")
+    (path "/00000000-0000-0000-0000-000060624557/e3c8b117-ca16-4b33-af2e-d91554fce6f7"
+      (reference "SW1") (unit 1) (value "TACT_SW") (footprint "SHS_DCDC:ESWITCH_TL1105")
     )
     (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-0000605c3bf5"
       (reference "TubeLight1") (unit 1) (value "RJ45-54602-908LF") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
