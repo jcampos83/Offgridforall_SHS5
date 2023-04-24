@@ -343,6 +343,9 @@
     (path "/00000000-0000-0000-0000-000060624557/17af8131-7d36-4a2d-bd39-68834ef39d7a"
       (reference "#PWR0119") (unit 1) (value "GND-power") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000060624557/230f3aa6-7ca6-4a03-9f87-e124c8c9e2a8"
+      (reference "#PWR0120") (unit 1) (value "GND-power") (footprint "")
+    )
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/bb6aaebf-5d69-4769-af62-d27b151a4158"
       (reference "#PWR0121") (unit 1) (value "GND-power") (footprint "")
     )
@@ -375,6 +378,12 @@
     )
     (path "/00000000-0000-0000-0000-0000604584af/019f878e-12bd-409e-a836-4cafb0072ece"
       (reference "#PWR0131") (unit 1) (value "GND-power") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/11b161de-e685-4808-92f6-47c20b08ddcf"
+      (reference "#PWR0132") (unit 1) (value "GND-power") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/a11dbb8f-8ee6-4b93-a01e-ef207f220076"
+      (reference "#PWR0133") (unit 1) (value "GND-power") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000604584af/00000000-0000-0000-0000-000060cbd25b"
       (reference "4cells1") (unit 1) (value "BK-18650-PC8") (footprint "BK-18650:BK-18650-PC8")
@@ -505,8 +514,11 @@
     (path "/00000000-0000-0000-0000-000060624557/97e3c3f6-5410-41c1-a5a2-6c78d99f4942"
       (reference "C40") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/afeac0ec-45cd-492e-a54a-5613fc75f098"
-      (reference "J1") (unit 1) (value "Barrel_Jack") (footprint "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A")
+    (path "/00000000-0000-0000-0000-000060624557/00000000-0000-0000-0000-00006265f792"
+      (reference "ESP32") (unit 1) (value "ESP32-S2-MINI-1") (footprint "Espressif:ESP32-S2-MINI-1")
+    )
+    (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/baa39aed-88e1-460b-bca8-04bba79a1af9"
+      (reference "J1") (unit 1) (value "PJ-059A") (footprint "SHS_DCDC:CUI_PJ-059A")
     )
     (path "/00000000-0000-0000-0000-00006081f53e/00000000-0000-0000-0000-000060b1d413"
       (reference "J2") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_CONNFLY_DS1095-WNR0")
@@ -730,8 +742,26 @@
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/6125677b-6611-429c-8337-96670ecddad7"
       (reference "R48") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-000060624557/6343690f-bc09-4b56-b23e-326b55527ba1"
+      (reference "R49") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/0be9b26e-c472-4395-b86c-f113f5307a29"
+      (reference "R50") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/baa80927-1394-4def-8ad0-6674279a94e0"
+      (reference "R51") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/00000000-0000-0000-0000-000060624557/e3c8b117-ca16-4b33-af2e-d91554fce6f7"
       (reference "SW1") (unit 1) (value "TACT_SW") (footprint "SHS_DCDC:ESWITCH_TL1105")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/528a23b4-70d7-4bb6-8cf3-0ce00ddf7f16"
+      (reference "SW2") (unit 1) (value "TACT_SW") (footprint "SHS_DCDC:ESWITCH_TL1105")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/f6124de2-6c77-4dc0-bc49-81c581e534f8"
+      (reference "SW3") (unit 1) (value "TACT_SW") (footprint "SHS_DCDC:ESWITCH_TL1105")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/e9f4f0d9-ac3c-45f4-87ad-5863e3425549"
+      (reference "SW4") (unit 1) (value "TACT_SW") (footprint "SHS_DCDC:ESWITCH_TL1105")
     )
     (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-0000605c3bf5"
       (reference "TubeLight1") (unit 1) (value "RJ45-54602-908LF") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
@@ -753,9 +783,6 @@
     )
     (path "/00000000-0000-0000-0000-00006081f53e/00000000-0000-0000-0000-000060acd9c4"
       (reference "U5") (unit 1) (value "MP3414A") (footprint "SHS_DCDC:MP3414A")
-    )
-    (path "/00000000-0000-0000-0000-000060624557/00000000-0000-0000-0000-00006265f792"
-      (reference "U6") (unit 1) (value "ESP32-S2-MINI-1") (footprint "Espressif:ESP32-S2-MINI-1")
     )
     (path "/00000000-0000-0000-0000-0000604584af/f6424dd2-6594-4dfd-960d-52dfa35deb35"
       (reference "U7") (unit 1) (value "MCP101") (footprint "Package_TO_SOT_SMD:SOT-23")
