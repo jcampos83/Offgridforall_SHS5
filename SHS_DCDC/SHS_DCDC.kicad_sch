@@ -115,9 +115,6 @@
     (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-000060583901"
       (reference "#PWR08") (unit 1) (value "GND-power") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-000060700506"
-      (reference "#PWR09") (unit 1) (value "GND-power") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-000060628c83"
       (reference "#PWR010") (unit 1) (value "GND-power") (footprint "")
     )
@@ -148,9 +145,6 @@
     (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-0000606d5c52"
       (reference "#PWR019") (unit 1) (value "GND-power") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-0000606f55c9"
-      (reference "#PWR020") (unit 1) (value "GND-power") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-00006070e2e0"
       (reference "#PWR021") (unit 1) (value "GND-power") (footprint "")
     )
@@ -171,9 +165,6 @@
     )
     (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-000060723191"
       (reference "#PWR027") (unit 1) (value "GND-power") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-000060723286"
-      (reference "#PWR028") (unit 1) (value "GND-power") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-0000607621f7"
       (reference "#PWR029") (unit 1) (value "GND-power") (footprint "")
@@ -427,12 +418,6 @@
     (path "/00000000-0000-0000-0000-0000604584af/00000000-0000-0000-0000-000060cbd25b"
       (reference "4cells1") (unit 1) (value "BK-18650-PC8") (footprint "BK-18650:BK-18650-PC8")
     )
-    (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-0000605d1f3c"
-      (reference "Bulb1") (unit 1) (value "RJ45-54602-908LF") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
-    )
-    (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-0000605d3c5d"
-      (reference "Bulb2") (unit 1) (value "RJ45-54602-908LF") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
-    )
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/172062e8-3690-4199-8c94-f4d30f3e140b"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -594,6 +579,15 @@
     )
     (path "/00000000-0000-0000-0000-00006081f53e/00000000-0000-0000-0000-000060b07cee"
       (reference "L2") (unit 1) (value "1.5 uH") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-60xx")
+    )
+    (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-0000605c3bf5"
+      (reference "Light1") (unit 1) (value "RJ45-54602-908LF") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-0000605d1f3c"
+      (reference "Light2") (unit 1) (value "RJ45-54602-908LF") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-0000605d3c5d"
+      (reference "Light3") (unit 1) (value "RJ45-54602-908LF") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
     )
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/1d41d115-ae42-45c4-94ef-985da86b8839"
       (reference "Q1") (unit 1) (value "BSS84") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -826,6 +820,15 @@
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/32b8aa67-3f44-4cd7-9944-5e9d26cef87a"
       (reference "R55") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/00000000-0000-0000-0000-0000605796bf/e670b7aa-8c9e-4694-89bf-6a212a711492"
+      (reference "R56") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-0000605796bf/e1a089ea-ee55-4338-b927-0f91aa3d7137"
+      (reference "R57") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-0000605796bf/e6ed7082-0a7e-4540-989f-1f7b2aea941e"
+      (reference "R58") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-000060624557/6177c149-a509-48a2-a9a9-eb204542a1b7"
       (reference "S1") (unit 1) (value "PTS645SM43SMTR92_LFS") (footprint "digikey-footprints:Switch_Tactile_SMD_6x6mm_PTS645")
     )
@@ -840,9 +843,6 @@
     )
     (path "/00000000-0000-0000-0000-000060624557/e9f4f0d9-ac3c-45f4-87ad-5863e3425549"
       (reference "SW4") (unit 1) (value "TACT_SW") (footprint "SHS_DCDC:ESWITCH_TL1105")
-    )
-    (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-0000605c3bf5"
-      (reference "TubeLight1") (unit 1) (value "RJ45-54602-908LF") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
     )
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/e8082605-88d2-428f-af6e-bbb5794f08ec"
       (reference "U1") (unit 1) (value "RT8299-WDFN10L") (footprint "Library:RT8299-WDFN")
