@@ -851,7 +851,7 @@
     (uuid ffd090c8-4143-4cbf-b0c2-8d4305bd21e2)
   )
 
-  (text "That amplifier circuit is a high side current sensing.\nUsing the LMV324 with 4 opamp unit, I have:\n- 1 opamp unit to provide the half Vdd reference voltage for another opamp circuit\n- 2 opamp unit in buffer mode (voltage follower) for the DCDC_OUT and LOAD voltage\n- 1 opamp unit for the classic high side current sensing circuit\nThe ratio of the amplification is 100:1"
+  (text "That amplifier circuit is a high side current sensing.\nUsing the LMV324 with 4 opamp unit, I have:\n- 1 opamp unit to provide the half Vdd reference voltage for another opamp circuit\n- 2 opamp unit in buffer mode (voltage follower) for the DCDC_OUT and LOAD voltage\n- 1 opamp unit for the classic high side current sensing circuit (MCU_ADC_IPV output)\nThe ratio of the amplification is 100:1\nNote: the quad opamp is power gated. If MCU is not working, that block won't work too.\nThis helps also to reduce power consumption in idle mode."
     (at 184.15 96.52 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4e3f35b8-d452-4630-892f-d8a143dd0d51)
