@@ -370,6 +370,9 @@
     (path "/00000000-0000-0000-0000-000060624557/230f3aa6-7ca6-4a03-9f87-e124c8c9e2a8"
       (reference "#PWR0120") (unit 1) (value "GND-power") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000060624557/8c1ec56d-27bf-41c8-9d21-2dd44077dcae"
+      (reference "#PWR0121") (unit 1) (value "GND-power") (footprint "")
+    )
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/41011742-9950-48cc-be0f-3e101c79b280"
       (reference "#PWR0122") (unit 1) (value "GND-power") (footprint "")
     )
@@ -829,6 +832,9 @@
     (path "/00000000-0000-0000-0000-0000605796bf/e6ed7082-0a7e-4540-989f-1f7b2aea941e"
       (reference "R58") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-000060624557/4443b6ec-4468-4ee9-95bb-be0a4e8da08a"
+      (reference "R59") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/00000000-0000-0000-0000-000060624557/6177c149-a509-48a2-a9a9-eb204542a1b7"
       (reference "S1") (unit 1) (value "PTS645SM43SMTR92_LFS") (footprint "digikey-footprints:Switch_Tactile_SMD_6x6mm_PTS645")
     )
@@ -843,6 +849,9 @@
     )
     (path "/00000000-0000-0000-0000-000060624557/e9f4f0d9-ac3c-45f4-87ad-5863e3425549"
       (reference "SW4") (unit 1) (value "TACT_SW") (footprint "SHS_DCDC:ESWITCH_TL1105")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/e74924b3-a299-4f76-8c03-795c9563a0d0"
+      (reference "SW5") (unit 1) (value "TACT_SW") (footprint "SHS_DCDC:ESWITCH_TL1105")
     )
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/e8082605-88d2-428f-af6e-bbb5794f08ec"
       (reference "U1") (unit 1) (value "RT8299-WDFN10L") (footprint "Library:RT8299-WDFN")
