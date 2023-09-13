@@ -418,8 +418,20 @@
     (path "/00000000-0000-0000-0000-0000605796bf/2d5ee612-bf2b-4969-a106-9ea29a813dd5"
       (reference "#PWR0136") (unit 1) (value "GND-power") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000060624557/87b44280-045c-46e0-b217-e90753dbc3a9"
+      (reference "#PWR0137") (unit 1) (value "GND-power") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/38f3e9ed-f0f9-4aa7-b698-706a6e0eeb1f"
+      (reference "#PWR0138") (unit 1) (value "GND-power") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000604584af/00000000-0000-0000-0000-000060cbd25b"
       (reference "4cells1") (unit 1) (value "BK-18650-PC8") (footprint "BK-18650:BK-18650-PC8")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/7966a313-f2d1-4c77-96d8-22cf2eb459c2"
+      (reference "BivarLEDguide1") (unit 1) (value "MountingHole") (footprint "SHS_DCDC:BIVAR VLP-XXX-F")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/6bf1f9ea-619d-414d-8317-011c097e97aa"
+      (reference "BivarLEDguide2") (unit 1) (value "MountingHole") (footprint "SHS_DCDC:BIVAR VLP-XXX-F")
     )
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/172062e8-3690-4199-8c94-f4d30f3e140b"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -582,6 +594,12 @@
     )
     (path "/00000000-0000-0000-0000-00006081f53e/00000000-0000-0000-0000-000060b07cee"
       (reference "L2") (unit 1) (value "1.5 uH") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-60xx")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/d4f8ae75-ecbe-4789-8619-853bd980c090"
+      (reference "LED_BR1") (unit 1) (value "LED_Dual_AKKA") (footprint "LED_SMD:LED_Kingbright_APHBM2012_2x1.25mm")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/fd49cb66-7ad5-4e6f-8e59-d86519a034aa"
+      (reference "LED_RG1") (unit 1) (value "LED_Dual_AKKA") (footprint "LED_SMD:LED_Kingbright_APHBM2012_2x1.25mm")
     )
     (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-0000605c3bf5"
       (reference "Light1") (unit 1) (value "RJ45-54602-908LF") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
@@ -834,6 +852,18 @@
     )
     (path "/00000000-0000-0000-0000-000060624557/4443b6ec-4468-4ee9-95bb-be0a4e8da08a"
       (reference "R59") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/54323df3-8a41-4657-b0d9-bddb72f0d433"
+      (reference "R60") (unit 1) (value "220") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/d7c2cb0b-8d83-4046-9c40-a8419da572b0"
+      (reference "R61") (unit 1) (value "220") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/e165fdb4-ec76-40c6-8f38-b50f36255ca0"
+      (reference "R62") (unit 1) (value "220") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060624557/4f73077b-170a-4847-a1db-d181b2a39148"
+      (reference "R63") (unit 1) (value "220") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060624557/6177c149-a509-48a2-a9a9-eb204542a1b7"
       (reference "S1") (unit 1) (value "PTS645SM43SMTR92_LFS") (footprint "digikey-footprints:Switch_Tactile_SMD_6x6mm_PTS645")
