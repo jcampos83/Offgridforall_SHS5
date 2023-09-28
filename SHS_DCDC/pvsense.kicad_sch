@@ -856,7 +856,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4e3f35b8-d452-4630-892f-d8a143dd0d51)
   )
-  (text "Below the shunt resistor\n" (at 147.32 17.78 0)
+  (text "Below the shunt resistor measuring the current coming from the PV\n"
+    (at 115.57 20.32 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 800eb188-1da4-4140-80f6-e5e3f46923cb)
   )
