@@ -1497,8 +1497,13 @@
     (uuid fdfaa669-824d-4b18-80b1-d8fffb333462)
   )
 
-  (text "PV diversion switch:\nwhen MCU is not working (below min Vth), that means the DCDC is not working too (pull down resistor force ENABLE line to logic low).\nThe absence of MCU also forces the line MCU_PVDIRECTSWITCH to be low, meaning the PMOS become conductive.\nHence, PMOS below becomes conductive, and the DCDC is disabled.\nThe PV power therefore flows into the battery and start charging it.\nWhen Vbat will rise until MCU is activated, the MCU can set MCU-MPPT_ENABLE to logic high and force MCU_PVDIRECTSWITCH to logic high too.\nIn that case, the DCDC is activated and that PMOS is deactivated. \nBecause those 2 logic lines are separated, we also have the possibility to deactivate the DCDC and the PMOS together. \nNote: DCDC and PMOS should never be set active at same time."
-    (at 13.97 31.75 0)
+  (text "That block is what shifts the output of the DCDC converter.\nThe objective is to fine tune the exact shift through a PWM control,\nand be able to control the battery charging current with high precision.\nOn that aspect, we can therefore put in place a true MPPT algorithm."
+    (at 213.36 163.83 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 38097087-569f-40bc-b2c5-274f3523cdd8)
+  )
+  (text "PV diversion switch -->\nwhen MCU is not working (below Vbat_min), the DCDC is not working too (pull down resistor force ENABLE line to logic low).\nThe absence of MCU also forces the line MCU_PVDIRECTSWITCH to be low, meaning the PMOS become conductive.\nHence, PMOS below becomes conductive, and the DCDC is disabled.\nThe PV power therefore flows into the battery and start charging it.\nWith Vbat charging until it reaches threshold to activate the MCU, \nthe MCU can set MCU-MPPT_ENABLE to logic high and force MCU_PVDIRECTSWITCH to logic high too.\nIn that case, the DCDC is activated and that PMOS is deactivated. \nBecause those 2 logic lines are separated, we also have the possibility to deactivate the DCDC and the PMOS together. \nNote: DCDC and PMOS should never be set active at same time."
+    (at 41.91 35.56 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3dbe8e58-739c-40e6-8086-ef6e0c03b3d9)
   )
