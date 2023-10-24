@@ -382,7 +382,7 @@
     (path "/00000000-0000-0000-0000-0000604584af/da6f84c9-46c1-46e6-891e-6b7b2d45e891"
       (reference "#PWR0124") (unit 1) (value "GND-power") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00006081f53e/41bb5872-1ca4-44ba-bd5a-a8d6e5b4921f"
+    (path "/00000000-0000-0000-0000-00006081f53e/dbc67f15-364a-4b31-84a2-41809ebe09e7"
       (reference "#PWR0125") (unit 1) (value "GND-power") (footprint "")
     )
     (path "/a76ffc62-1853-46d7-a1b3-01061ef89817/766187f8-50e1-4ec4-b4c0-8ee720e62c49"
@@ -426,6 +426,18 @@
     )
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/f8f7318f-0680-4bef-8d81-4057550cd86f"
       (reference "#PWR0139") (unit 1) (value "GND-power") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604584af/2d6b8b65-1beb-4994-870c-e9004cbbb1a6"
+      (reference "#PWR0140") (unit 1) (value "GND-power") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604584af/30e5131d-df41-4209-80da-34ab46d9bbb5"
+      (reference "#PWR0141") (unit 1) (value "GND-power") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604584af/40998f49-7378-4d46-b142-53fdbb19a171"
+      (reference "#PWR0142") (unit 1) (value "GND-power") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604584af/e80d3b5c-d00f-4864-be0e-fb9f40a4dcf2"
+      (reference "#PWR0143") (unit 1) (value "GND-power") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000604584af/00000000-0000-0000-0000-000060cbd25b"
       (reference "4cells1") (unit 1) (value "BK-18650-PC8") (footprint "BK-18650:BK-18650-PC8")
@@ -574,8 +586,14 @@
     (path "/00000000-0000-0000-0000-0000605796bf/d46ab1f6-0657-49d9-8307-0b6cbab80cce"
       (reference "C46") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/00000000-0000-0000-0000-00006081f53e/7864e629-c31c-4a2c-bcc4-5d0d7f0e170a"
+      (reference "C47") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/4fc958a6-9ec8-4c7c-af17-8ac078863ba1"
       (reference "D1") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00006081f53e/6aa7ce42-4dbf-4da4-9672-0c01412ddca9"
+      (reference "D2") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-523")
     )
     (path "/00000000-0000-0000-0000-000060624557/00000000-0000-0000-0000-00006265f792"
       (reference "ESP32") (unit 1) (value "ESP32-S2-MINI-1") (footprint "Espressif:ESP32-S2-MINI-1")
@@ -757,9 +775,6 @@
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/3b1c550c-42a2-44e3-abe3-f29bac19b7b7"
       (reference "R24") (unit 1) (value "R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-0000604584af/87ffdf9e-9ac8-4c6e-a3e9-0cf6e57564d0"
-      (reference "R25") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
     (path "/00000000-0000-0000-0000-0000605796bf/00000000-0000-0000-0000-0000607bfe33"
       (reference "R26") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -804,9 +819,6 @@
     )
     (path "/00000000-0000-0000-0000-00006081f53e/00000000-0000-0000-0000-00006086567e"
       (reference "R40") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00006081f53e/00000000-0000-0000-0000-000060b0a4c6"
-      (reference "R41") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006081f53e/00000000-0000-0000-0000-000060b15a97"
       (reference "R42") (unit 1) (value "137k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -877,6 +889,9 @@
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/04e6deaa-4733-42c0-8143-2437e488b9cf"
       (reference "R64") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/00000000-0000-0000-0000-00006081f53e/25b4bc16-3260-48f3-81d6-59d967e0213c"
+      (reference "R65") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-000060624557/6177c149-a509-48a2-a9a9-eb204542a1b7"
       (reference "S1") (unit 1) (value "PTS645SM43SMTR92_LFS") (footprint "digikey-footprints:Switch_Tactile_SMD_6x6mm_PTS645")
     )
@@ -894,6 +909,60 @@
     )
     (path "/00000000-0000-0000-0000-000060624557/e74924b3-a299-4f76-8c03-795c9563a0d0"
       (reference "SW5") (unit 1) (value "TACT_SW") (footprint "SHS_DCDC:ESWITCH_TL1105")
+    )
+    (path "/00000000-0000-0000-0000-00006081f53e/a24d3b68-3b35-4fcf-b8cc-822839ecad51"
+      (reference "TP1") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/00000000-0000-0000-0000-00006081f53e/baddf03f-d088-4d49-9a50-357e1efd7155"
+      (reference "TP2") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/00000000-0000-0000-0000-0000604584af/07ada66c-8d05-4815-b21f-74378204a4bc"
+      (reference "TP3") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/00000000-0000-0000-0000-0000604584af/c5a46273-ec40-4e28-892d-e48d1c9543f4"
+      (reference "TP4") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/00000000-0000-0000-0000-0000605796bf/f5b77c14-000e-43a8-85ac-836d35d9bd0f"
+      (reference "TP5") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/00000000-0000-0000-0000-0000605796bf/c77b782f-1a17-4cfc-9574-6222424c41c9"
+      (reference "TP6") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/00000000-0000-0000-0000-0000605796bf/e6a70bdb-e544-42b8-b289-c375994ec051"
+      (reference "TP7") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/00000000-0000-0000-0000-00006081f53e/c073f220-d4f4-4190-814f-299b8b1fa081"
+      (reference "TP8") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/00000000-0000-0000-0000-0000604584af/ca8214e3-d8e0-49ca-84fb-fc3ed2c19c41"
+      (reference "TP9") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/00000000-0000-0000-0000-00006081f53e/02117417-a891-4c57-bac9-244a42fd000e"
+      (reference "TP10") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/a76ffc62-1853-46d7-a1b3-01061ef89817/4f478a87-dd8d-4dbd-958d-5d9245f37b19"
+      (reference "TP11") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/869e13b4-fb91-478d-838d-e0440d654637"
+      (reference "TP12") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/04bb6954-1cab-491e-82a2-529683ba2c50"
+      (reference "TP13") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/73906c44-3a0b-42b6-92f7-867e071926b5"
+      (reference "TP14") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/00000000-0000-0000-0000-0000604584af/7481fe24-e33f-407a-9ad0-b82ea79af170"
+      (reference "TP15") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/00000000-0000-0000-0000-0000604584af/0f8d6a62-fc86-4d73-9683-16fa2ffa39dc"
+      (reference "TP16") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/00000000-0000-0000-0000-0000604584af/e7bd9c44-1fb9-4bd8-bdaf-d0c85f3b9e43"
+      (reference "TP17") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/00000000-0000-0000-0000-0000604584af/6908c23c-9c94-4ff8-b1ff-3298785f060e"
+      (reference "TP18") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
     )
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/e8082605-88d2-428f-af6e-bbb5794f08ec"
       (reference "U1") (unit 1) (value "RT8299-WDFN10L") (footprint "Library:RT8299-WDFN")
