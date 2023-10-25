@@ -598,6 +598,24 @@
     (path "/00000000-0000-0000-0000-000060624557/00000000-0000-0000-0000-00006265f792"
       (reference "ESP32") (unit 1) (value "ESP32-S2-MINI-1") (footprint "Espressif:ESP32-S2-MINI-1")
     )
+    (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/eef60c70-dd6d-444e-9222-bec3a09061d9"
+      (reference "FID1") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
+    )
+    (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/c5c12599-0d4e-42c3-9013-db4131cbc4a1"
+      (reference "FID2") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
+    )
+    (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/69beedfe-3437-4aee-bc1b-237aa2e17b0c"
+      (reference "FID3") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
+    )
+    (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/48e86a26-907c-427c-a158-f6d0b6d6d18f"
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965")
+    )
+    (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/8a940541-30e4-4a51-8e21-b4f7d21bb939"
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965")
+    )
+    (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/f93453cf-e751-49f2-b895-5fab9dc96dee"
+      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965")
+    )
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/baa39aed-88e1-460b-bca8-04bba79a1af9"
       (reference "J1") (unit 1) (value "PJ-059A") (footprint "SHS_DCDC:CUI_PJ-059A")
     )
@@ -963,6 +981,9 @@
     )
     (path "/00000000-0000-0000-0000-0000604584af/6908c23c-9c94-4ff8-b1ff-3298785f060e"
       (reference "TP18") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
+    )
+    (path "/00000000-0000-0000-0000-0000605796bf/26183d47-2f9f-4995-8bff-b675c323b66d"
+      (reference "TP19") (unit 1) (value "5029") (footprint "digikey-footprints:PC_Test_Point_Mini_3.8x2.03mm")
     )
     (path "/3a4b325f-dde5-4b87-a79e-68ea31650d05/e8082605-88d2-428f-af6e-bbb5794f08ec"
       (reference "U1") (unit 1) (value "RT8299-WDFN10L") (footprint "Library:RT8299-WDFN")
